@@ -35,7 +35,7 @@ provider "proxmox" {
 }
 
 resource "proxmox_vm_qemu" "vm-instance" {
-    name                = "vm-instance"
+    name                = "kw1"
     target_node         = "pve"
     clone               = "vm-template"
     full_clone          = true
